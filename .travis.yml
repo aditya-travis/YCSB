@@ -21,7 +21,6 @@ language: java
 
 jdk:
   - oraclejdk7
-  - openjdk7  
 
 install: mvn install -q -DskipTests=true
 
@@ -40,4 +39,5 @@ services:
 
 # Use the Container based infrastructure.
 sudo: false
+
 
